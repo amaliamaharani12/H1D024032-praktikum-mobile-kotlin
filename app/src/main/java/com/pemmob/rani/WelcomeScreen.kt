@@ -22,9 +22,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun WelcomeScreen() {
+fun WelcomeScreen(modifier: Modifier = Modifier) {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = modifier.fillMaxSize()
     ) {
         Image(
             painter = painterResource(id = R.drawable.gedung_teknik),
